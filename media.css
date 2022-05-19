@@ -1,0 +1,278 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 560px) {
+    /* .navbar .container
+    {
+        width: 100% !important;
+    } */
+    .navbar .links
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .service .bg
+    {
+        font-size: 4.3rem !important;
+    }
+    .work .bg
+    {
+        font-size: 4rem !important;
+    }
+    .clients .bg
+    {
+        font-size: 3.2rem !important;
+    }
+    .service h2
+    {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .bg h2
+    {
+        margin :13px;
+    }
+    .contact .bg h2
+    {
+       font-size: 1.7rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 660px) {
+    .navbar #container
+    {
+        width: 100% !important;
+    }
+    .navbar .links
+    {
+        width: 100%;
+    }
+    .navbar a{
+        font-size: 11px;
+    }
+      .header .top {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .header .bottom {
+        font-size: 16px;
+      }
+      .header-caption span {
+        font-size: 55px;
+        font-weight: 600;
+      }
+      .about .bg
+    {
+        font-size: 60px !important;
+    }
+    .about h2
+    {
+        font-size: 23px !important;
+    }
+    .lin-green {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-65% , -50%);
+    }
+    .about p
+    {
+        font-size: 14px;
+    }
+    .resume .education
+    {
+        width: 100% !important;
+    }
+    .clients .bg
+    {
+        font-size: 3.5rem !important;
+    }
+    .clients h2
+    {
+        font-size: 0.8rem;
+        margin-bottom: 14px;
+    }
+    .contact .bg
+    {
+        font-size: 4.3rem !important;
+    }
+    .contact h2
+    {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navbar a
+    {
+        font-size: 14px;
+    }
+    
+    .about h4
+    {
+        font-size: 35px !important;
+    }
+    .about .myexp
+    {
+        width: 50%;
+    }
+    .about #none{
+        border-right-color: #fff;
+    }
+    .myserv
+    {
+        width: 100%;
+    }
+    .skills .item
+    {
+        width: 100%;
+    }
+    .contact .content
+    {
+        text-align: center;
+    }
+    .address
+    {
+        width: 100% !important;
+        order: 2;
+    }
+    .contact-with-us
+    {
+        width: 100% !important;
+        order: 1;
+    }
+    .footer .left , .footer .right
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 870px)
+{
+    .bg
+    {
+        font-size: 6rem;
+    }
+    .about h2
+    {
+        font-size: 2rem;
+    }
+    .resume .bg 
+    {
+        font-size: 5rem;
+    }
+    .work .bg
+    {
+        font-size: 4.2rem;
+    }
+    .work h2
+    {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .clients .bg
+    {
+        font-size: 4.2rem;
+    }
+    .clients h2
+    {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .resume-content
+    {
+       justify-content: center;
+    }
+    .resume .education
+    {
+        width: 80%;
+    }
+    .firstblock , .secondblock , .thirdblock
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* margin-top: 30px; */
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1080px) {
+    .navbar .links
+    {
+        width: 75%;
+
+    }
+    .navbar #container
+    {
+        width: 100%;
+
+    }
+    .about .content
+    {
+        width: 100% !important;
+        text-align: center;
+    }
+    .about .data
+    {
+        width: 100% !important;
+    }
+    
+    .about h4{
+        font-size: 40px;
+    }
+    .about .container
+    {
+        width: 100% !important;
+    }
+    .service .container
+    {
+        width: 95% !important;
+    }
+    .client{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .none
+    {
+        display: none;
+    }
+    
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .navbar #container{
+        width: 85%;
+    }
+    .about .content
+    {
+        width: 67%;
+    }
+    .about .data
+    {
+        width: 30%;
+    }
+    .about .container{
+        width: 90%;
+    }
+    .contact .container{
+        width: 100%;
+    }
+    .person .item {
+        float: initial;
+        width: 100%;
+        margin: 0px;
+      }
+    .address
+    {
+        width: 27%;
+    }
+    .contact-with-us
+    {
+        width: 70%;
+    }
+
+}
+
