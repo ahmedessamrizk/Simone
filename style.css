@@ -23,7 +23,6 @@ body {
 {
   width: 70%;
   padding: 10px;
-  /* background-color: beige; */
   display: flex;
   justify-content: space-between;
   align-items: center;
